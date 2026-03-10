@@ -3,7 +3,7 @@
 **Last Updated:** March 10, 2026
 
 ## 1. Introduction
-Welcome to **EchoShell** ("we," "our," or "us"). We are committed to protecting your privacy and ensuring you have a positive experience on our website and in using our mobile application (the "App"). This Privacy Policy applies to your use of the App and any related services.
+Welcome to **ShellWhisper** ("we," "our," or "us"). We are committed to protecting your privacy and ensuring you have a positive experience on our website and in using our mobile application (the "App"). This Privacy Policy applies to your use of the App and any related services.
 
 ## 2. Data We Collect
 
@@ -57,4 +57,4 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 ## 8. Contact Us
 If you have any questions about this Privacy Policy, please contact us at:
-[wangqy19901003@gmail.com]
+[Your Support Email]
