@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last Updated:** March 10, 2026
+**Last Updated:** March 16, 2026
 
 ## 1. Introduction
 Welcome to **ShellWhisper** ("we," "our," or "us"). We are committed to protecting your privacy and ensuring you have a positive experience on our website and in using our mobile application (the "App"). This Privacy Policy applies to your use of the App and any related services.
@@ -33,12 +33,12 @@ We use the following third-party services to provide core functionality:
   - **DeepSeek:** Used for users in mainland China or as a fallback. [DeepSeek Privacy Policy](https://www.deepseek.com/privacy)
 - **Data Safety:** We do not send personally identifiable information (PII) to these services. Only the text of your current conversation is transmitted.
 
-### 3.2 Speech-to-Text (Aliyun DashScope)
-- **Voice Processing:** For real-time transcription, audio data may be processed by Aliyun DashScope (Paraformer). [Aliyun Privacy Policy](https://www.alibabacloud.com/help/en/legal/latest/privacy-policy)
+### 3.2 Speech-to-Text (Apple Speech & OpenAI Whisper)
+- **Voice Processing:** For real-time transcription, audio data may be processed securely on-device via Apple's Speech framework, or transmitted to OpenAI's Whisper API for accurate recognition. [Apple Privacy Policy](https://www.apple.com/legal/privacy/) | [OpenAI Privacy Policy](https://openai.com/privacy)
 
-### 3.3 Subscription Management (RevenueCat)
-- **Payments:** We use RevenueCat to manage auto-renewable subscriptions.
-- **Data:** RevenueCat processes anonymous app user IDs and purchase receipts to validate your subscription status. We do not process or store your credit card information directly. [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
+### 3.3 Subscription Management (Apple StoreKit)
+- **Payments:** We use Apple's In-App Purchase system (StoreKit) to manage auto-renewable subscriptions.
+- **Data:** Apple processes your payments and validates your subscription status. We do not process or store your credit card information directly. Your subscription is linked to your Apple ID. [Apple Privacy Policy](https://www.apple.com/legal/privacy/)
 
 ## 4. Data Retention
 - **Local Data:** Data stored locally on your device remains there until you delete the App or clear the data.

@@ -1,6 +1,6 @@
 # Terms of Service
 
-**Last Updated:** March 10, 2026
+**Last Updated:** March 16, 2026
 
 ## 1. Acceptance of Terms
 By downloading, accessing, or using **ShellWhisper** (the "App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use the App.
