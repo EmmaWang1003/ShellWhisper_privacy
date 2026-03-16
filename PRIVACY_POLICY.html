@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - EchoShell</title>
+    <style>
+        :root {
+            --primary-color: #006F87; /* Deep Sea */
+            --accent-color: #FF823A; /* Joyful Orange */
+            --bg-gradient-start: #E8D9FF; /* Aurora Purple */
+            --bg-gradient-end: #E0F7FA; /* Ice Blue */
+            --text-color: #2c3e50;
+            --glass-bg: rgba(255, 255, 255, 0.65);
+            --glass-border: rgba(255, 255, 255, 0.4);
+            --shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
+            min-height: 100vh;
+            color: var(--text-color);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 40px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 24px;
+            border: 1px solid var(--glass-border);
+            box-shadow: var(--shadow);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            text-align: center;
+            letter-spacing: -0.5px;
+        }
+
+        .last-updated {
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 3rem;
+            font-weight: 500;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid rgba(0, 111, 135, 0.1);
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            color: #444;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+
+        strong {
+            color: #000;
+            font-weight: 600;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px;
+                padding: 24px;
+                border-radius: 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="last-updated">Last Updated: March 16, 2026</p>
+
+        <h2>1. Introduction</h2>
+        <p>Welcome to <strong>ShellWhisper</strong> ("we," "our," or "us"). We are committed to protecting your privacy and ensuring you have a positive experience on our website and in using our mobile application (the "App"). This Privacy Policy applies to your use of the App and any related services.</p>
+
+        <h2>2. Data We Collect</h2>
+
+        <h3>2.1 Microphone Usage</h3>
+        <p>The App requires access to your device's microphone to function. We record your voice input <strong>solely</strong> for the purpose of processing your requests and generating responses.</p>
+        <ul>
+            <li><strong>Real-time Processing:</strong> Audio data is processed in real-time.</li>
+            <li><strong>Transitory Nature:</strong> Audio recordings are processed to generate text transcripts and are not permanently stored on our servers unless explicitly saved by you as a "Memory" in the App.</li>
+        </ul>
+
+        <h3>2.2 User-Generated Content</h3>
+        <ul>
+            <li><strong>Memories:</strong> When you save a conversation as a memory, the text transcript and associated metadata (e.g., emotion tags, timestamps) are stored.</li>
+            <li><strong>Storage:</strong> This data is stored locally on your device and synchronized via <strong>iCloud</strong> (CloudKit) if enabled. We do not have direct access to your private iCloud data.</li>
+        </ul>
+
+        <h3>2.3 Device and Usage Data</h3>
+        <p>We may collect anonymous usage data to improve app performance, including:</p>
+        <ul>
+            <li>Device type and operating system version.</li>
+            <li>Crash reports and performance metrics.</li>
+            <li>Feature usage statistics (e.g., which themes are most popular).</li>
+        </ul>
+
+        <h2>3. Third-Party Services</h2>
+        <p>We use the following third-party services to provide core functionality:</p>
+
+        <h3>3.1 AI Processing (OpenAI & DeepSeek)</h3>
+        <ul>
+            <li><strong>Text Processing:</strong> To generate intelligent responses, text transcripts of your voice input are sent to third-party AI providers.</li>
+            <li><strong>Providers:</strong>
+                <ul>
+                    <li><strong>OpenAI:</strong> Used for users in supported regions. <a href="https://openai.com/privacy" target="_blank">OpenAI Privacy Policy</a></li>
+                    <li><strong>DeepSeek:</strong> Used for users in mainland China or as a fallback. <a href="https://www.deepseek.com/privacy" target="_blank">DeepSeek Privacy Policy</a></li>
+                </ul>
+            </li>
+            <li><strong>Data Safety:</strong> We do not send personally identifiable information (PII) to these services. Only the text of your current conversation is transmitted.</li>
+        </ul>
+
+        <h3>3.2 Speech-to-Text (Apple Speech & OpenAI Whisper)</h3>
+        <ul>
+            <li><strong>Voice Processing:</strong> For real-time transcription, audio data may be processed securely on-device via Apple's Speech framework, or transmitted to OpenAI's Whisper API for accurate recognition. <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a> | <a href="https://openai.com/privacy" target="_blank">OpenAI Privacy Policy</a></li>
+        </ul>
+
+        <h3>3.3 Subscription Management (Apple StoreKit)</h3>
+        <ul>
+            <li><strong>Payments:</strong> We use Apple's In-App Purchase system (StoreKit) to manage auto-renewable subscriptions.</li>
+            <li><strong>Data:</strong> Apple processes your payments and validates your subscription status. We do not process or store your credit card information directly. Your subscription is linked to your Apple ID. <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a></li>
+        </ul>
+
+        <h2>4. Data Retention</h2>
+        <ul>
+            <li><strong>Local Data:</strong> Data stored locally on your device remains there until you delete the App or clear the data.</li>
+            <li><strong>iCloud Data:</strong> Data synced to iCloud is retained according to your Apple ID settings.</li>
+            <li><strong>Server Logs:</strong> We do not maintain a central database of user conversations.</li>
+        </ul>
+
+        <h2>5. Your Rights</h2>
+        <ul>
+            <li><strong>Access & Deletion:</strong> You can view and delete your saved memories directly within the App.</li>
+            <li><strong>Revoke Permissions:</strong> You can revoke microphone access at any time in your device Settings.</li>
+        </ul>
+
+        <h2>6. Children's Privacy</h2>
+        <p>The App is not intended for children under the age of 13. We do not knowingly collect personal information from children.</p>
+
+        <h2>7. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+
+        <h2>8. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+        <p><a href="mailto:support@echoshell.app">support@echoshell.app</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Notice - EchoShell</title>
+    <style>
+        :root {
+            --primary-color: #006F87; /* Deep Sea */
+            --accent-color: #FF823A; /* Joyful Orange */
+            --bg-gradient-start: #E8D9FF; /* Aurora Purple */
+            --bg-gradient-end: #E0F7FA; /* Ice Blue */
+            --text-color: #2c3e50;
+            --glass-bg: rgba(255, 255, 255, 0.65);
+            --glass-border: rgba(255, 255, 255, 0.4);
+            --shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
+            min-height: 100vh;
+            color: var(--text-color);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 40px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 24px;
+            border: 1px solid var(--glass-border);
+            box-shadow: var(--shadow);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            text-align: center;
+            letter-spacing: -0.5px;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            color: var(--primary-color);
+            margin-top: 2rem;
+            margin-bottom: 0.8rem;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        .highlight-box {
+            background: rgba(0, 111, 135, 0.05);
+            border-radius: 12px;
+            padding: 16px;
+            margin-top: 8px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px;
+                padding: 24px;
+                border-radius: 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Membership Notice</h1>
+
+        <h2>1. Subscription Service</h2>
+        <p>ShellWhisper Pro is an auto-renewable subscription service.</p>
+
+        <h2>2. Payment</h2>
+        <p>Payment will be charged to your iTunes Account at confirmation of purchase.</p>
+
+        <h2>3. Automatic Renewal</h2>
+        <div class="highlight-box">
+            <p style="margin-bottom: 0;">Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Your account will be charged for renewal within 24-hours prior to the end of the current period.</p>
+        </div>
+
+        <h2>4. Manage Subscription</h2>
+        <p>You can manage your subscription and turn off auto-renewal by going to your Account Settings after purchase.</p>
+
+        <h2>5. Cancellation</h2>
+        <p>You can cancel your subscription at any time. The cancellation will take effect the day after the last day of the current subscription period, and you will be downgraded to the free service.</p>
+
+        <h2>6. Refund Policy</h2>
+        <p>All purchases are final. Refunds are handled exclusively by Apple via <a href="https://reportaproblem.apple.com" target="_blank">reportaproblem.apple.com</a>.</p>
+    </div>
+</body>
+</html>
